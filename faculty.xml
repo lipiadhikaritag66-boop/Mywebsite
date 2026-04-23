@@ -1,184 +1,75 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us – HIMT Nepal</title>
-  <link rel="stylesheet" href="../css/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-</head>
-<body>
-  <!-- HEADER -->
-  <header id="header">
-    <div class="header-top">
-      <div class="container">
-        <span><i class="fa fa-phone"></i> +977-1-4XXXXXX &nbsp;|&nbsp; <i class="fa fa-envelope"></i> info@himt.edu.np</span>
-        <span><i class="fa fa-map-marker-alt"></i> Lalitpur, Bagmati Province, Nepal</span>
-      </div>
-    </div>
-    <div class="header-main">
-      <div class="container">
-        <div class="logo">
-          <div class="logo-icon">H</div>
-          <div class="logo-text">
-            <div class="college-name">Himalayan Institute of Management &amp; Technology</div>
-            <div class="college-tagline">Affiliated to Tribhuvan University · Est. 2001</div>
-          </div>
-        </div>
-        <nav id="main-nav">
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="about.html" class="active">About Us</a></li>
-            <li><a href="departments.html">Departments</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="faculty.html">Faculty</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="admissions.html">Admissions</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="admissions.html" class="nav-cta">Apply Now</a></li>
-          </ul>
-        </nav>
-        <button class="hamburger" id="hamburger">☰</button>
-      </div>
-    </div>
-  </header>
-
-  <!-- PAGE HERO -->
-  <section class="page-hero">
-    <div class="container">
-      <div class="breadcrumb">
-        <a href="../index.html">Home</a><span>›</span><span>About Us</span>
-      </div>
-      <h1>About HIMT Nepal</h1>
-      <p>Our history, mission, and the values that guide everything we do.</p>
-    </div>
-  </section>
-
-  <!-- INTRO SECTION -->
-  <section class="section-pad">
-    <div class="container">
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;">
-        <div>
-          <span class="section-label">Our Story</span>
-          <h2 style="font-size:2.2rem;color:var(--primary);margin:12px 0 20px;">Over Two Decades of Academic Excellence</h2>
-          <p style="color:var(--text-mid);line-height:1.8;margin-bottom:16px;">Founded in 2001 by a group of visionary educators and industry professionals, Himalayan Institute of Management &amp; Technology (HIMT) was established with a bold mission: to create a world-class educational institution in Nepal that bridges the gap between academic theory and industry practice.</p>
-          <p style="color:var(--text-mid);line-height:1.8;margin-bottom:24px;">Starting with just two programs and 120 students in a modest campus in Lalitpur, HIMT has grown into one of Nepal's leading private colleges with over 2,500 enrolled students, 45 faculty members, and 5 academic departments — all affiliated to Tribhuvan University.</p>
-          <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;">
-            <div style="background:var(--light-bg);padding:20px;border-radius:var(--radius);">
-              <div style="font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--primary);">2001</div>
-              <div style="font-size:0.85rem;color:var(--text-mid);">Year Established</div>
-            </div>
-            <div style="background:var(--light-bg);padding:20px;border-radius:var(--radius);">
-              <div style="font-family:var(--font-display);font-size:2rem;font-weight:700;color:var(--primary);">5000+</div>
-              <div style="font-size:0.85rem;color:var(--text-mid);">Alumni Network</div>
-            </div>
-          </div>
-        </div>
-        <div style="background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:var(--radius);padding:40px;color:white;text-align:center;">
-          <div style="font-size:5rem;margin-bottom:20px;">🏔️</div>
-          <h3 style="color:white;font-size:1.6rem;margin-bottom:12px;">HIMT Campus</h3>
-          <p style="color:rgba(255,255,255,0.75);font-size:0.9rem;">Pulchowk, Lalitpur, Nepal<br>Set against the scenic backdrop of the Himalayan range</p>
-          <div style="margin-top:28px;display:grid;grid-template-columns:1fr 1fr;gap:16px;text-align:center;">
-            <div><div style="font-size:1.5rem;font-weight:700;">10 acres</div><div style="font-size:0.78rem;opacity:0.7;">Campus Area</div></div>
-            <div><div style="font-size:1.5rem;font-weight:700;">15,000+</div><div style="font-size:0.78rem;opacity:0.7;">Library Books</div></div>
-            <div><div style="font-size:1.5rem;font-weight:700;">80+</div><div style="font-size:0.78rem;opacity:0.7;">Computers</div></div>
-            <div><div style="font-size:1.5rem;font-weight:700;">3</div><div style="font-size:0.78rem;opacity:0.7;">Seminar Halls</div></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- MISSION VISION -->
-  <section class="section-pad bg-light">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Our Foundation</span>
-        <h2>Mission, Vision &amp; Values</h2>
-      </div>
-      <div class="grid-3">
-        <div class="card" style="padding:36px;text-align:center;" class="animate-on-scroll">
-          <div style="font-size:2.5rem;margin-bottom:16px;">🎯</div>
-          <h3 style="color:var(--primary);margin-bottom:12px;">Our Mission</h3>
-          <p style="color:var(--text-mid);font-size:0.92rem;line-height:1.8;">To provide quality, affordable, and accessible education in management and technology that empowers Nepali students to become skilled professionals and ethical leaders who contribute to national development and global progress.</p>
-        </div>
-        <div class="card" style="padding:36px;text-align:center;border-top:4px solid var(--accent);">
-          <div style="font-size:2.5rem;margin-bottom:16px;">🔭</div>
-          <h3 style="color:var(--primary);margin-bottom:12px;">Our Vision</h3>
-          <p style="color:var(--text-mid);font-size:0.92rem;line-height:1.8;">To be the most respected educational institution in Nepal — recognized for academic rigor, research contributions, industry partnerships, and for shaping graduates who lead with integrity, competence, and compassion.</p>
-        </div>
-        <div class="card" style="padding:36px;text-align:center;">
-          <div style="font-size:2.5rem;margin-bottom:16px;">💎</div>
-          <h3 style="color:var(--primary);margin-bottom:12px;">Core Values</h3>
-          <ul style="text-align:left;color:var(--text-mid);font-size:0.9rem;line-height:2;">
-            <li>✅ &nbsp;Academic Integrity</li>
-            <li>✅ &nbsp;Student-Centered Learning</li>
-            <li>✅ &nbsp;Innovation &amp; Critical Thinking</li>
-            <li>✅ &nbsp;Inclusion &amp; Diversity</li>
-            <li>✅ &nbsp;Community Responsibility</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- HISTORY TIMELINE -->
-  <section class="section-pad">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Our Journey</span>
-        <h2>Milestones &amp; Achievements</h2>
-      </div>
-      <div style="max-width:700px;margin:0 auto;" class="timeline">
-        <div class="timeline-item"><span class="timeline-date">2001</span><h4>HIMT Founded</h4><p>Established with BBA and Economics programs with 120 students in Lalitpur, affiliated to Tribhuvan University.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2005</span><h4>BIM Program Launched</h4><p>Became one of the first private colleges in Nepal to offer the Bachelor of Information Management program.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2008</span><h4>MBA Program Introduced</h4><p>Postgraduate MBA program launched to serve working professionals seeking advanced management education.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2010</span><h4>BSc.CSIT Added &amp; New Campus</h4><p>Computer Science program launched. New modern campus building inaugurated with improved labs and library.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2015</span><h4>2000+ Students Milestone</h4><p>Student enrolment crossed 2,000. 80+ industry partnerships established for internship and placement programs.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2020</span><h4>Digital Infrastructure Upgrade</h4><p>Launched e-learning platform, upgraded computer labs to 80+ systems, and introduced digital library access.</p></div>
-        <div class="timeline-item"><span class="timeline-date">2024</span><h4>Best College Award – TU</h4><p>Received the prestigious Best Affiliated College award from Tribhuvan University for academic excellence and infrastructure.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- LEADERSHIP -->
-  <section class="section-pad bg-light">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-label">Leadership</span>
-        <h2>Message from the Principal</h2>
-      </div>
-      <div style="max-width:800px;margin:0 auto;background:white;border-radius:var(--radius);box-shadow:var(--shadow);padding:40px;display:flex;gap:32px;align-items:flex-start;">
-        <div style="text-align:center;flex-shrink:0;">
-          <div style="width:90px;height:90px;background:linear-gradient(135deg,var(--primary),var(--primary-light));border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:2rem;font-weight:700;color:white;margin:0 auto 12px;">DK</div>
-          <div style="font-weight:700;color:var(--primary);font-size:0.95rem;">Dr. Dipak Koirala</div>
-          <div style="font-size:0.8rem;color:var(--accent);font-weight:600;">Principal &amp; CEO</div>
-        </div>
-        <div>
-          <p style="color:var(--text-mid);line-height:1.85;font-style:italic;font-size:0.95rem;margin-bottom:16px;">"At HIMT, we believe education is not merely the transfer of knowledge — it is the transformation of character. Our goal has always been to develop graduates who are not only technically competent but also ethically grounded and socially responsible."</p>
-          <p style="color:var(--text-mid);line-height:1.85;font-size:0.9rem;">"Over the past 23 years, we have seen thousands of young Nepali students walk through our gates with dreams, and walk out with the skills and confidence to realize them. That remains our greatest achievement and our deepest motivation to continue improving every year."</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer id="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <div class="logo" style="margin-bottom:16px;"><div class="logo-icon" style="width:44px;height:44px;font-size:1.2rem;">H</div><div class="logo-text"><div class="college-name" style="font-size:1rem;">HIMT Nepal</div></div></div>
-          <p>Committed to academic excellence and student success since 2001.</p>
-        </div>
-        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="departments.html">Departments</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
-        <div class="footer-col"><h4>Programs</h4><ul><li><a href="courses.html">BIM</a></li><li><a href="courses.html">BBA</a></li><li><a href="courses.html">BSc.CSIT</a></li><li><a href="courses.html">MBA</a></li></ul></div>
-        <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><span>📍</span><span>Pulchowk, Lalitpur, Nepal</span></div><div class="footer-contact-item"><span>📞</span><span>+977-1-4XXXXXX</span></div><div class="footer-contact-item"><span>✉️</span><span>info@himt.edu.np</span></div></div>
-      </div>
-    </div>
-    <div class="footer-bottom"><div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;"><span>© 2024 HIMT Nepal. All rights reserved.</span><span>Affiliated to <a href="#">Tribhuvan University</a></span></div></div>
-  </footer>
-
-  <script src="../js/main.js"></script>
-  <script>initScrollAnimations();</script>
-</body>
-</html>
+<?xml version="1.0" encoding="UTF-8"?>
+<faculty>
+  <member id="1">
+    <name>Dr. Ramesh Shrestha</name>
+    <designation>Associate Professor &amp; HOD</designation>
+    <department>BIM</department>
+    <qualification>PhD in Information Systems, MBS</qualification>
+    <experience>15 years</experience>
+    <email>ramesh@hcm.edu.np</email>
+    <avatar>RS</avatar>
+  </member>
+  <member id="2">
+    <name>Prof. Sita Maharjan</name>
+    <designation>Professor &amp; HOD</designation>
+    <department>BBA</department>
+    <qualification>PhD in Management, MBA</qualification>
+    <experience>18 years</experience>
+    <email>sita@hcm.edu.np</email>
+    <avatar>SM</avatar>
+  </member>
+  <member id="3">
+    <name>Dr. Bikash Thapa</name>
+    <designation>Associate Professor &amp; HOD</designation>
+    <department>CSIT</department>
+    <qualification>PhD in Computer Science, MSc</qualification>
+    <experience>12 years</experience>
+    <email>bikash@hcm.edu.np</email>
+    <avatar>BT</avatar>
+  </member>
+  <member id="4">
+    <name>Dr. Priya Acharya</name>
+    <designation>Professor &amp; HOD</designation>
+    <department>MBA</department>
+    <qualification>PhD in Business, MBA</qualification>
+    <experience>20 years</experience>
+    <email>priya@hcm.edu.np</email>
+    <avatar>PA</avatar>
+  </member>
+  <member id="5">
+    <name>Mr. Sunil Gurung</name>
+    <designation>Assistant Professor</designation>
+    <department>BIM</department>
+    <qualification>MCA, BSc IT</qualification>
+    <experience>8 years</experience>
+    <email>sunil@hcm.edu.np</email>
+    <avatar>SG</avatar>
+  </member>
+  <member id="6">
+    <name>Ms. Anita Tamang</name>
+    <designation>Lecturer</designation>
+    <department>BBA</department>
+    <qualification>MBA, BBS</qualification>
+    <experience>5 years</experience>
+    <email>anita@hcm.edu.np</email>
+    <avatar>AT</avatar>
+  </member>
+  <member id="7">
+    <name>Mr. Rohan Karki</name>
+    <designation>Lecturer</designation>
+    <department>CSIT</department>
+    <qualification>MSc CS, BSc CSIT</qualification>
+    <experience>6 years</experience>
+    <email>rohan@hcm.edu.np</email>
+    <avatar>RK</avatar>
+  </member>
+  <member id="8">
+    <name>Ms. Deepa Rai</name>
+    <designation>Assistant Professor</designation>
+    <department>MBA</department>
+    <qualification>MBA, BBS (Hons)</qualification>
+    <experience>9 years</experience>
+    <email>deepa@hcm.edu.np</email>
+    <avatar>DR</avatar>
+  </member>
+</faculty>

@@ -3,9 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faculty – HIMT Nepal</title>
-  <link rel="stylesheet" href="../css/style.css" />
+  <title>Contact Us – HIMT Nepal</title>
+  <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    .form-group { margin-bottom: 18px; }
+    .form-group label { display: block; font-size: 0.88rem; font-weight: 600; color: var(--text-dark); margin-bottom: 6px; }
+    .form-group input, .form-group select, .form-group textarea {
+      width: 100%; padding: 12px 14px; border: 2px solid var(--border); border-radius: var(--radius-sm);
+      font-family: var(--font-body); font-size: 0.9rem; color: var(--text-dark); transition: var(--transition); outline: none;
+    }
+    .form-group input:focus, .form-group textarea:focus { border-color: var(--primary-light); }
+    #contact-success { display:none; background:#d4edda; color:#155724; padding:14px; border-radius:8px; text-align:center; margin-top:14px; }
+  </style>
 </head>
 <body>
   <header id="header">
@@ -13,14 +23,14 @@
     <div class="header-main"><div class="container">
       <div class="logo"><div class="logo-icon">H</div><div class="logo-text"><div class="college-name">Himalayan Institute of Management &amp; Technology</div><div class="college-tagline">Affiliated to Tribhuvan University · Est. 2001</div></div></div>
       <nav id="main-nav"><ul>
-        <li><a href="../index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="departments.html">Departments</a></li>
         <li><a href="courses.html">Courses</a></li>
-        <li><a href="faculty.html" class="active">Faculty</a></li>
+        <li><a href="faculty.html">Faculty</a></li>
         <li><a href="gallery.html">Gallery</a></li>
         <li><a href="admissions.html">Admissions</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
         <li><a href="admissions.html" class="nav-cta">Apply Now</a></li>
       </ul></nav>
       <button class="hamburger" id="hamburger">☰</button>
@@ -29,32 +39,104 @@
 
   <section class="page-hero">
     <div class="container">
-      <div class="breadcrumb"><a href="../index.html">Home</a><span>›</span><span>Faculty</span></div>
-      <h1>Our Faculty</h1>
-      <p>Meet the dedicated educators and researchers who shape the future of our students every day.</p>
+      <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Contact Us</span></div>
+      <h1>Contact Us</h1>
+      <p>Have a question? We're here to help. Reach out to us anytime.</p>
     </div>
   </section>
 
   <section class="section-pad">
     <div class="container">
-      <div class="section-header">
-        <span class="section-label">Our Team</span>
-        <h2>Experienced &amp; Qualified Educators</h2>
-        <p>Filter by department to find faculty in a specific program.</p>
-      </div>
+      <div style="display:grid;grid-template-columns:1fr 1.4fr;gap:60px;align-items:start;">
 
-      <!-- Filter -->
-      <div class="filter-bar" id="faculty-filter-bar">
-        <button class="filter-btn active" data-filter="all">All Faculty</button>
-        <button class="filter-btn" data-filter="BIM">BIM</button>
-        <button class="filter-btn" data-filter="BBA">BBA</button>
-        <button class="filter-btn" data-filter="CSIT">CSIT</button>
-        <button class="filter-btn" data-filter="MBA">MBA</button>
-        <button class="filter-btn" data-filter="Economics">Economics</button>
-      </div>
+        <!-- CONTACT INFO -->
+        <div>
+          <span class="section-label">Get in Touch</span>
+          <h2 style="color:var(--primary);font-size:2rem;margin:12px 0 28px;">We'd Love to Hear From You</h2>
 
-      <div class="grid-4" id="faculty-container">
-        <div class="loading"><div class="spinner"></div>Loading faculty from XML...</div>
+          <div class="contact-info-block">
+            <div class="ci-icon">📍</div>
+            <div class="ci-text">
+              <h4>Our Address</h4>
+              <p>Himalayan Institute of Management &amp; Technology<br>Pulchowk, Lalitpur-3<br>Bagmati Province, Nepal</p>
+            </div>
+          </div>
+          <div class="contact-info-block">
+            <div class="ci-icon">📞</div>
+            <div class="ci-text">
+              <h4>Phone Numbers</h4>
+              <p>+977-1-4XXXXXX (Main Line)<br>+977-1-4XXXXXX (Admissions)<br>+977-98XXXXXXXX (Mobile)</p>
+            </div>
+          </div>
+          <div class="contact-info-block">
+            <div class="ci-icon">✉️</div>
+            <div class="ci-text">
+              <h4>Email Addresses</h4>
+              <p>info@himt.edu.np (General)<br>admissions@himt.edu.np (Admissions)<br>principal@himt.edu.np (Principal's Office)</p>
+            </div>
+          </div>
+          <div class="contact-info-block">
+            <div class="ci-icon">⏰</div>
+            <div class="ci-text">
+              <h4>Office Hours</h4>
+              <p>Sunday – Friday: 9:00 AM – 5:00 PM<br>Saturday: 10:00 AM – 2:00 PM<br>Public Holidays: Closed</p>
+            </div>
+          </div>
+          <div class="contact-info-block">
+            <div class="ci-icon">🌐</div>
+            <div class="ci-text">
+              <h4>Social Media</h4>
+              <p>
+                <a href="#" style="color:var(--primary-light);">Facebook: /HIMTNepal</a><br>
+                <a href="#" style="color:var(--primary-light);">Instagram: @himt.edu.np</a><br>
+                <a href="#" style="color:var(--primary-light);">YouTube: HIMT Official</a>
+              </p>
+            </div>
+          </div>
+
+          <!-- MAP PLACEHOLDER -->
+          <div class="map-placeholder" style="margin-top:28px;">
+            <span>🗺️</span>
+            <p>Pulchowk, Lalitpur, Nepal</p>
+            <p style="font-size:0.78rem;opacity:0.6;">(Embed Google Maps here in production)</p>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div>
+          <div style="background:white;border-radius:var(--radius);box-shadow:var(--shadow);padding:40px;">
+            <span class="section-label">Send a Message</span>
+            <h3 style="color:var(--primary);margin:10px 0 24px;">Quick Inquiry Form</h3>
+            <form id="contact-form">
+              <div class="form-group"><label>Your Full Name *</label><input type="text" placeholder="Enter your name" required /></div>
+              <div class="form-group"><label>Email Address *</label><input type="email" placeholder="your@email.com" required /></div>
+              <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+977 98XXXXXXXX" /></div>
+              <div class="form-group">
+                <label>Subject *</label>
+                <select required>
+                  <option value="">-- Select Subject --</option>
+                  <option>Admission Inquiry</option>
+                  <option>Course Information</option>
+                  <option>Scholarship Query</option>
+                  <option>Faculty Contact</option>
+                  <option>General Inquiry</option>
+                  <option>Complaint / Feedback</option>
+                </select>
+              </div>
+              <div class="form-group"><label>Your Message *</label><textarea rows="5" placeholder="Write your message here..." required></textarea></div>
+              <button type="submit" class="btn btn-dark" style="width:100%;justify-content:center;">
+                <i class="fa fa-paper-plane"></i> &nbsp; Send Message
+              </button>
+              <div id="contact-success">✅ Your message has been sent! We'll respond within 24 hours.</div>
+            </form>
+          </div>
+
+          <!-- FAQ -->
+          <div style="margin-top:32px;">
+            <h3 style="color:var(--primary);margin-bottom:20px;">Frequently Asked Questions</h3>
+            <div id="faq-list"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -63,7 +145,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col"><div class="logo" style="margin-bottom:16px;"><div class="logo-icon" style="width:44px;height:44px;font-size:1.2rem;">H</div><div class="logo-text"><div class="college-name" style="font-size:1rem;">HIMT Nepal</div></div></div><p>Committed to academic excellence since 2001.</p></div>
-        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="../index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="departments.html">Departments</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
+        <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="departments.html">Departments</a></li><li><a href="courses.html">Courses</a></li><li><a href="admissions.html">Admissions</a></li></ul></div>
         <div class="footer-col"><h4>Programs</h4><ul><li><a href="courses.html">BIM</a></li><li><a href="courses.html">BBA</a></li><li><a href="courses.html">BSc.CSIT</a></li><li><a href="courses.html">MBA</a></li></ul></div>
         <div class="footer-col"><h4>Contact</h4><div class="footer-contact-item"><span>📍</span><span>Pulchowk, Lalitpur, Nepal</span></div><div class="footer-contact-item"><span>📞</span><span>+977-1-4XXXXXX</span></div><div class="footer-contact-item"><span>✉️</span><span>info@himt.edu.np</span></div></div>
       </div>
@@ -71,10 +153,48 @@
     <div class="footer-bottom"><div class="container" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;"><span>© 2024 HIMT Nepal.</span><span>Affiliated to Tribhuvan University</span></div></div>
   </footer>
 
-  <script src="../js/main.js"></script>
+  <script src="main.js"></script>
   <script>
-    loadFaculty('faculty-container');
-    setupFilters('faculty-filter-bar', loadFaculty, 'faculty-container');
+    initScrollAnimations();
+
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('contact-success').style.display = 'block';
+      this.reset();
+      setTimeout(() => { document.getElementById('contact-success').style.display = 'none'; }, 5000);
+    });
+
+    // Dynamic FAQ
+    const faqs = [
+      { q: "When do admissions open for 2081/82?", a: "Admissions are open from Baisakh 1 to Ashad 30, 2081. Early application is encouraged as seats are limited." },
+      { q: "Is there a scholarship available?", a: "Yes! HIMT offers merit-based scholarships of up to 100% for outstanding students. Contact the admissions office for details." },
+      { q: "Is the college affiliated to TU?", a: "Yes, all programs at HIMT are fully affiliated to Tribhuvan University (TU), Nepal's oldest and largest university." },
+      { q: "Can I visit the campus before applying?", a: "Absolutely! We welcome campus visits on all working days from 10 AM to 3 PM. Contact us to schedule a guided tour." }
+    ];
+
+    const faqList = document.getElementById('faq-list');
+    faqList.innerHTML = faqs.map((f, i) => `
+      <div style="border:1px solid var(--border);border-radius:var(--radius-sm);margin-bottom:10px;overflow:hidden;">
+        <button onclick="toggleFaq(${i})" style="width:100%;text-align:left;padding:14px 18px;background:var(--light-bg);border:none;cursor:pointer;font-family:var(--font-body);font-size:0.9rem;font-weight:600;color:var(--primary);display:flex;justify-content:space-between;align-items:center;" id="faq-btn-${i}">
+          ${f.q} <span id="faq-icon-${i}" style="font-size:1.1rem;">+</span>
+        </button>
+        <div id="faq-ans-${i}" style="display:none;padding:14px 18px;font-size:0.88rem;color:var(--text-mid);line-height:1.7;border-top:1px solid var(--border);">
+          ${f.a}
+        </div>
+      </div>
+    `).join('');
+
+    function toggleFaq(i) {
+      const ans = document.getElementById(`faq-ans-${i}`);
+      const icon = document.getElementById(`faq-icon-${i}`);
+      if (ans.style.display === 'none') {
+        ans.style.display = 'block';
+        icon.textContent = '−';
+      } else {
+        ans.style.display = 'none';
+        icon.textContent = '+';
+      }
+    }
   </script>
 </body>
 </html>
