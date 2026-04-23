@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Departments – Himalayan College of Management</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header><div class="nav-container">
+  <a href="index.html" class="logo"><div class="logo-icon">H</div><div class="logo-text"><h1>Himalayan College of Management</h1><span>Affiliated to Tribhuvan University</span></div></a>
+  <nav><div class="hamburger"><span></span><span></span><span></span></div><ul>
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="departments.html" class="active">Departments</a></li><li><a href="courses.html">Courses</a></li>
+    <li><a href="faculty.html">Faculty</a></li><li><a href="gallery.html">Gallery</a></li>
+    <li><a href="admissions.html">Admissions</a></li><li><a href="contact.html">Contact</a></li>
+    <li><a href="admissions.html" class="nav-cta">Apply Now</a></li>
+  </ul></nav>
+</div></header>
+<div class="page-hero"><div class="breadcrumb"><a href="index.html">Home</a> → Departments</div><h2>Academic Departments</h2><p>Explore our four specialized departments, each offering expert faculty and industry-aligned curriculum.</p></div>
+<section class="section"><div class="container">
+  <div class="section-header"><div class="tag">Academics</div><h2>Our Departments</h2><div class="divider"></div></div>
+  <div class="grid-4" id="dept-list"></div>
+</div></section>
+<footer><div class="footer-grid">
+  <div class="footer-brand"><h3>Himalayan College of Management</h3><p>Empowering future leaders since 2001.</p></div>
+  <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="departments.html">Departments</a></li></ul></div>
+  <div class="footer-col"><h4>Contact</h4><ul><li><a href="#">Baneshwor, Kathmandu</a></li><li><a href="#">+977-1-4567890</a></li></ul></div>
+  <div class="footer-col"><h4>Programs</h4><ul><li><a href="courses.html">BIM · BBA · CSIT · MBA</a></li></ul></div>
+</div><div class="footer-bottom"><p>© 2081 B.S. Himalayan College of Management. All Rights Reserved.</p></div></footer>
+<script src="js/main.js"></script>
+</body></html>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faculty>
+  <member id="1">
+    <name>Dr. Ramesh Shrestha</name>
+    <designation>Associate Professor &amp; HOD</designation>
+    <department>BIM</department>
+    <qualification>PhD in Information Systems, MBS</qualification>
+    <experience>15 years</experience>
+    <email>ramesh@hcm.edu.np</email>
+    <avatar>RS</avatar>
+  </member>
+  <member id="2">
+    <name>Prof. Sita Maharjan</name>
+    <designation>Professor &amp; HOD</designation>
+    <department>BBA</department>
+    <qualification>PhD in Management, MBA</qualification>
+    <experience>18 years</experience>
+    <email>sita@hcm.edu.np</email>
+    <avatar>SM</avatar>
+  </member>
+  <member id="3">
+    <name>Dr. Bikash Thapa</name>
+    <designation>Associate Professor &amp; HOD</designation>
+    <department>CSIT</department>
+    <qualification>PhD in Computer Science, MSc</qualification>
+    <experience>12 years</experience>
+    <email>bikash@hcm.edu.np</email>
+    <avatar>BT</avatar>
+  </member>
+  <member id="4">
+    <name>Dr. Priya Acharya</name>
+    <designation>Professor &amp; HOD</designation>
+    <department>MBA</department>
+    <qualification>PhD in Business, MBA</qualification>
+    <experience>20 years</experience>
+    <email>priya@hcm.edu.np</email>
+    <avatar>PA</avatar>
+  </member>
+  <member id="5">
+    <name>Mr. Sunil Gurung</name>
+    <designation>Assistant Professor</designation>
+    <department>BIM</department>
+    <qualification>MCA, BSc IT</qualification>
+    <experience>8 years</experience>
+    <email>sunil@hcm.edu.np</email>
+    <avatar>SG</avatar>
+  </member>
+  <member id="6">
+    <name>Ms. Anita Tamang</name>
+    <designation>Lecturer</designation>
+    <department>BBA</department>
+    <qualification>MBA, BBS</qualification>
+    <experience>5 years</experience>
+    <email>anita@hcm.edu.np</email>
+    <avatar>AT</avatar>
+  </member>
+  <member id="7">
+    <name>Mr. Rohan Karki</name>
+    <designation>Lecturer</designation>
+    <department>CSIT</department>
+    <qualification>MSc CS, BSc CSIT</qualification>
+    <experience>6 years</experience>
+    <email>rohan@hcm.edu.np</email>
+    <avatar>RK</avatar>
+  </member>
+  <member id="8">
+    <name>Ms. Deepa Rai</name>
+    <designation>Assistant Professor</designation>
+    <department>MBA</department>
+    <qualification>MBA, BBS (Hons)</qualification>
+    <experience>9 years</experience>
+    <email>deepa@hcm.edu.np</email>
+    <avatar>DR</avatar>
+  </member>
+</faculty>
